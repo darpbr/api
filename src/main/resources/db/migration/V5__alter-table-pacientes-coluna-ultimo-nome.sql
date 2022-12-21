@@ -1,0 +1,1 @@
+ALTER TABLE pacientes CHANGE sobrenome ultimo_nome VARCHAR(100) NOT NULL;

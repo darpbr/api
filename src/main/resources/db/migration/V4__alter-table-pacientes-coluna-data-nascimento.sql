@@ -1,0 +1,1 @@
+ALTER TABLE pacientes CHANGE datanascimento data_nascimento VARCHAR(15) NOT NULL;
