@@ -3,7 +3,7 @@
 Projeto criado a partir do curso de Spring Boot da Alura.
 Sistema que faz o cadastro, consulta, atualização de dados e
 deleção lógica de um banco de dados MySQL utilizando
-Spring Boot.
+Spring Boot 3.
 
 # Médicos
 
