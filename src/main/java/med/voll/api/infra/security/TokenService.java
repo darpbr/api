@@ -23,9 +23,9 @@ public class TokenService {
             return JWT.create()
                     .withIssuer("API Voll med")
                     .withSubject(usuario.getLogin()) // Serve para identificar o usuário ao qual o login pertence
-//                    .withClaim("id", usuario.getId()) //-> Método chamado para gravar qualquer informação que desejemos passar no Token, opdem ter várias chamadas ao método .withClaim
                     .withExpiresAt(dataExpiracao()) // configura uma prazo de expiração
                     .sign(algoritmo);
+//                    .withClaim("id", usuario.getId()) //-> Método chamado para gravar qualquer informação que desejemos passar no Token, opdem ter várias chamadas ao método .withClaim
         } catch (JWTCreationException exception){
             throw new RuntimeException("Não foi possível gerar Token awt", exception);
         }
